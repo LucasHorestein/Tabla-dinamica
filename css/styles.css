@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #5B57F2;
+}
+body div{
+    border-radius: 25px;
+}
+h1{
+    font-weight: 900;
+}
+
+hr{
+    width: 5%;
+    height: 3px;
+    background-color: #25C381;
+}
+
+.btn-toggle{
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+
+}
+.btn-toggle:focus{
+    outline: none;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.active{
+    background-color: #25C381;
+    color: #E7F9F3;
+}
+
+.active:hover{
+    background-color: #1c9462;
+    cursor:pointer;
+}
+
+.pasive{
+    background-color: #E7F9F3;
+    color: #25C381;
+}
+
+.pasive:hover{
+    background-color: #c8dad4;
+    cursor:pointer;
+
+}
+.bg-svg{
+    background-color: #25C381;
+    color: #E7F9F3;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 10%;
+    margin: 0 auto;
+}
+
+
+
+/*div central*/
+@media only screen and (max-width: 600px) {
+    body.text-center.mt-5 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    body h6.text-muted span#lbl-basic{
+        color: red;
+        margin: 0 auto;
+        font-size: 42px !important;
+    }
+    body h6.text-muted span#lbl-premium{
+        margin: 0 auto;
+        font-size: 42px;
+    }
+    body h6.text-muted span#lbl-business{
+        margin: 0 auto;
+        font-size: 42px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width: 768px) {
+    body h6.text-muted span#lbl-basic{
+        color: red;
+        margin: 0 auto;
+        font-size: 42px !important;
+    }
+    body h6.text-muted span#lbl-premium{
+        margin: 0 auto;
+        font-size: 42px;
+    }
+    body h6.text-muted span#lbl-business{
+        margin: 0 auto;
+        font-size: 42px;
+    } 
+    body h6.text-muted span.lbl-price{
+        display: table;
+        table-layout: fixed;
+        margin-left: 20px;
+    }
+}
+
+/*Ipad*/ 
+@media only screen and (min-width:768px) and (max-width:990px) {
+    body h6.text-muted span#lbl-basic{
+          margin: 0 auto;
+          font-size: 50px;
+    }
+    body h6.text-muted span#lbl-premium{
+         margin: 0 auto;
+         font-size: 50px;
+    }
+    body h6.text-muted span#lbl-business{
+          margin: 0 auto;
+          font-size: 50px;
+    } 
+    
+    body h6.text-muted span.lbl-price{
+        display: table;
+        table-layout: fixed;
+        margin-left: 40px;
+    }
+    
+    body.text-center.mt-5 {
+        /*margin-top: 140px !important;*/
+    }
+}
+
+/*Ipad Pro*/ 
+@media only screen and (min-width:990px) and (max-width:1024px) {
+    body h6.text-muted span#lbl-basic{
+          margin: 0 auto;
+          font-size: 50px;
+    }
+    body h6.text-muted span#lbl-premium{
+         margin: 0 auto;
+         font-size: 50px;
+    }
+    body h6.text-muted span#lbl-business{
+          margin: 0 auto;
+          font-size: 50px;
+    } 
+    body.text-center.mt-5 {
+        margin-top: 290px !important;
+    }
+}
+
+
+@media only screen and (min-width:1024px) {
+    body.text-center.mt-5 {
+        margin-top: 200px !important;
+    }
+}
+
+@media only screen and (min-width:1025px){
+    body h6.text-muted span#lbl-basic{
+          margin: 0 auto;
+          font-size: 50px;
+    }
+    body h6.text-muted span#lbl-premium{
+         margin: 0 auto;
+         font-size: 50px;
+    }
+    body h6.text-muted span#lbl-business{
+          margin: 0 auto;
+          font-size: 50px;
+    } 
+}

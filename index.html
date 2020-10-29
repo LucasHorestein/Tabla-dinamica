@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Pricing Toggle 1</title>
+</head>
+
+<body class="text-center mt-5">
+	<div class="container bg-white pb-4 mb-5">
+		<h1 class="pt-5">Pricing Toggle 1</h1>
+		<hr>
+		<div class="row justify-content-center">
+			<div class="col-xs-12 bg-white shadow p-2">
+				<button  id="btn-monthly" class="col-xs-6 btn-toggle active" >Monthly</button>
+				<button  id="btn-anually" class="col-xs-6 btn-toggle pasive" >Anually</button>
+			</div>
+		</div>
+		<div class="container mt-5">
+			<div class="row justify-content-center">
+				<div class="col-sm-3 bg-white shadow m-3">
+					<h3 class="pt-3 font-weight-bold">Basic</h3>
+					<div class="bg-svg">
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-pie"
+							class="svg-inline--fa fa-chart-pie fa-w-17" role="img" xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 544 512">
+							<path fill="currentColor"
+								d="M527.79 288H290.5l158.03 158.03c6.04 6.04 15.98 6.53 22.19.68 38.7-36.46 65.32-85.61 73.13-140.86 1.34-9.46-6.51-17.85-16.06-17.85zm-15.83-64.8C503.72 103.74 408.26 8.28 288.8.04 279.68-.59 272 7.1 272 16.24V240h223.77c9.14 0 16.82-7.68 16.19-16.8zM224 288V50.71c0-9.55-8.39-17.4-17.84-16.06C86.99 51.49-4.1 155.6.14 280.37 4.5 408.51 114.83 513.59 243.03 511.98c50.4-.63 96.97-16.87 135.26-44.03 7.9-5.6 8.42-17.23 1.57-24.08L224 288z">
+							</path>
+						</svg>
+					</div>
+					<h6 class="text-muted"><span id="lbl-basic" class="text-dark display-4 font-weight-bold">$39</span><span class="lbl-price">/Monthly</span></h6>
+					<!-- <h6 class="text-muted"><span id="lbl-basic-anually" class="text-dark display-4 font-weight-bold">$99</span><span id="lbl-price-anually" class="lbl-price">/Anually</span></h6> -->
+					<ul class="list-unstyled text-muted">
+						<li>1 Gb Diskspace</li>
+						<li>10 Gb Bandwith</li>
+						<li>2 Email Adress</li>
+						<li>WordPress Installs</li>
+						<li>Private Support</li>
+					</ul>
+					<button class="btn-toggle active container mb-3">Sign Up</button>
+				</div>
+				<div class="col-sm-3 bg-white shadow m-3">
+					<h3 class="pt-3 font-weight-bold">Premium</h3>
+					<div class="bg-svg">
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line"
+							class="svg-inline--fa fa-chart-line fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 512 512">
+							<path fill="currentColor"
+								d="M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z">
+							</path>
+						</svg>
+					</div>
+					<h6 class="text-muted"><span id="lbl-premium" class="text-dark display-4 font-weight-bold">$49</span><span class="lbl-price">/Monthly</span></h6>
+					<ul class="list-unstyled text-muted">
+						<li>5 Gb Diskspace</li>
+						<li>50 Gb Bandwith</li>
+						<li>4 Email Adress</li>
+						<li>WordPress Installs</li>
+						<li>Private Support</li>
+					</ul>
+					<button class="btn-toggle active container mb-3">Sign Up</button>
+				</div>
+				<div class="col-sm-3 bg-white shadow m-3">
+					<h3 class="pt-3 font-weight-bold">Business</h3>
+					<div class="bg-svg">
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="city"
+							class="svg-inline--fa fa-city fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 640 512">
+							<path fill="currentColor"
+								d="M616 192H480V24c0-13.26-10.74-24-24-24H312c-13.26 0-24 10.74-24 24v72h-64V16c0-8.84-7.16-16-16-16h-16c-8.84 0-16 7.16-16 16v80h-64V16c0-8.84-7.16-16-16-16H80c-8.84 0-16 7.16-16 16v80H24c-13.26 0-24 10.74-24 24v360c0 17.67 14.33 32 32 32h576c17.67 0 32-14.33 32-32V216c0-13.26-10.75-24-24-24zM128 404c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm128 192c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm160 96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12V76c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm160 288c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40z">
+							</path>
+						</svg>
+					</div>
+					<h6 class="text-muted"><span id="lbl-business" class="text-dark display-4 font-weight-bold">$59</span><span class="lbl-price">/Monthly</span></h6>
+					<ul class="list-unstyled text-muted">
+						<li>20 Gb Diskspace</li>
+						<li>100 Gb Bandwith</li>
+						<li>10 Email Adress</li>
+						<li>WordPress Installs</li>
+						<li>Private Support</li>
+					</ul>
+					<button class="btn-toggle active container mb-3">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+		<script src="js/funciones.js"></script>
+</body>
+</html>
